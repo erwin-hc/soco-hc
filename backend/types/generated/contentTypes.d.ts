@@ -483,7 +483,7 @@ export interface ApiCalendarCalendar extends Struct.CollectionTypeSchema {
 export interface ApiInicioInicio extends Struct.SingleTypeSchema {
   collectionName: 'inicios';
   info: {
-    displayName: 'Inicio';
+    displayName: 'Pagina Inicial';
     pluralName: 'inicios';
     singularName: 'inicio';
   };
@@ -523,7 +523,7 @@ export interface ApiInicioInicio extends Struct.SingleTypeSchema {
 export interface ApiMenuMenu extends Struct.SingleTypeSchema {
   collectionName: 'menus';
   info: {
-    displayName: 'Menu';
+    displayName: 'Links de Navega\u00E7\u00E3o';
     pluralName: 'menus';
     singularName: 'menu';
   };
