@@ -111,10 +111,10 @@ const Hero = ({ dados }: HeroProps) => {
           </div>
 
           {/* Gradiente extra suave para garantir a fusão total com a cor #171717 */}
-          <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-t from-[#171717] via-[#171717]/80 to-transparent pointer-events-none z-[2]" />
+          <div className="absolute inset-x-0 bottom-0 h-64 bg-linear-to-t from-[#171717] via-[#171717]/80 to-transparent pointer-events-none z-2" />
 
           {/* Conteúdo / Textos */}
-          <div className="relative flex flex-col items-start justify-end h-[75vh] w-full z-[10] max-w-7xl mx-auto px-10">
+          <div className="relative flex flex-col items-start justify-end h-[75vh] w-full z-10 max-w-7xl mx-auto px-10">
             <div className="flex flex-col items-center justify-center">
               <motion.div
                 key={"soco hc"}

@@ -181,7 +181,7 @@ function FlyerLightbox({
       aria-modal="true"
       aria-label={`Flyer do show ${title}`}
       onClick={onClose}
-      className=" fixed inset-0 z-[9999] flex items-center justify-center bg-background/15  backdrop-blur-3xl "
+      className=" fixed inset-0 z-9999 flex items-center justify-center bg-background/15  backdrop-blur-3xl "
     >
       <Button
         type="button"
