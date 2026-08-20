@@ -1,0 +1,31 @@
+allowBuilds:
+  '@swc/core': true
+  better-sqlite3: true
+  core-js-pure: true
+  esbuild: true
+  sharp: true
+minimumReleaseAgeExclude:
+  - '@strapi/admin@5.52.1'
+  - '@strapi/cloud-cli@5.52.1'
+  - '@strapi/content-manager@5.52.1'
+  - '@strapi/content-releases@5.52.1'
+  - '@strapi/content-type-builder@5.52.1'
+  - '@strapi/core@5.52.1'
+  - '@strapi/data-transfer@5.52.1'
+  - '@strapi/database@5.52.1'
+  - '@strapi/email@5.52.1'
+  - '@strapi/generators@5.52.1'
+  - '@strapi/i18n@5.52.1'
+  - '@strapi/logger@5.52.1'
+  - '@strapi/openapi@5.52.1'
+  - '@strapi/permissions@5.52.1'
+  - '@strapi/plugin-cloud@5.52.1'
+  - '@strapi/plugin-users-permissions@5.52.1'
+  - '@strapi/provider-email-sendmail@5.52.1'
+  - '@strapi/provider-upload-local@5.52.1'
+  - '@strapi/review-workflows@5.52.1'
+  - '@strapi/strapi@5.52.1'
+  - '@strapi/types@5.52.1'
+  - '@strapi/typescript-utils@5.52.1'
+  - '@strapi/upload@5.52.1'
+  - '@strapi/utils@5.52.1'

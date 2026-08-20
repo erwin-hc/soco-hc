@@ -1,0 +1,17 @@
+# Dependências
+node_modules/
+
+# Backend (Strapi)
+backend/node_modules/
+backend/dist/
+backend/.tmp/
+backend/.strapi/
+backend/.env
+backend/build/
+backend/logs/
+backend/public/uploads/
+
+# Web (Next.js)
+web/node_modules/
+web/.next/
+web/out/
